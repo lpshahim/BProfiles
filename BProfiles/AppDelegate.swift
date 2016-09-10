@@ -7,15 +7,42 @@
 //
 
 import UIKit
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    var drawerContainer : MMDrawerController?
 
+    func buildUserInterface(){
+        //Navigate to protected page
+        let mainStoryboard: UIStoryboard = UIStoryboard(name:"Main",bundle:nil)
+        
+        //Create view controllers for left, centre and right side
+        let mainPage:MainPageViewController = mainStoryboard.instantiateViewControllerWithIdentifier("MainPageViewController") as! MainPageViewController
+        
+        
+        let rightSideMenu:TableViewController = mainStoryboard.instantiateViewControllerWithIdentifier("TableViewController") as! TableViewController
+        
+        //Wrap into navigation controllers
+        let mainPageNav = UINavigationController(rootViewController:mainPage)
+        let rightSideMenuNav = UINavigationController(rootViewController:rightSideMenu)
+        
+        
+        drawerContainer = MMDrawerController(centerViewController: mainPageNav, rightDrawerViewController: rightSideMenuNav)
+        
+        drawerContainer!.openDrawerGestureModeMask = MMOpenDrawerGestureMode.PanningCenterView
+        drawerContainer!.closeDrawerGestureModeMask = MMCloseDrawerGestureMode.PanningCenterView
+        
+        
+        
+        window?.rootViewController = drawerContainer
+    }
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        FIRApp.configure()
         return true
     }
 

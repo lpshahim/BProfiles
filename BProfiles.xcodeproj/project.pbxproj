@@ -7,14 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07B6E8218854833F4B92A593 /* Pods_BProfiles.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5E96FD98D508657148E29F1 /* Pods_BProfiles.framework */; };
 		B40D07AB1D21A980007C86ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40D07AA1D21A980007C86ED /* AppDelegate.swift */; };
 		B40D07AD1D21A980007C86ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40D07AC1D21A980007C86ED /* ViewController.swift */; };
 		B40D07B01D21A980007C86ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B40D07AE1D21A980007C86ED /* Main.storyboard */; };
 		B40D07B21D21A980007C86ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B40D07B11D21A980007C86ED /* Assets.xcassets */; };
 		B40D07B51D21A980007C86ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B40D07B31D21A980007C86ED /* LaunchScreen.storyboard */; };
+		B40D07BD1D21A993007C86ED /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B40D07BC1D21A993007C86ED /* GoogleService-Info.plist */; };
+		B40D07C51D21AB51007C86ED /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40D07C41D21AB51007C86ED /* CustomButton.swift */; };
+		B40D07C71D21B296007C86ED /* CreateUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40D07C61D21B296007C86ED /* CreateUserViewController.swift */; };
+		B41873B01D22BCCD00486CB9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B41873AF1D22BCCD00486CB9 /* CoreGraphics.framework */; };
+		B41873B21D22BCEA00486CB9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B41873B11D22BCEA00486CB9 /* UIKit.framework */; };
+		B41873BA1D22C9D900486CB9 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41873B91D22C9D900486CB9 /* Card.swift */; };
+		B41873BC1D22CA9A00486CB9 /* Card.xib in Resources */ = {isa = PBXBuildFile; fileRef = B41873BB1D22CA9A00486CB9 /* Card.xib */; };
+		B44CBA9C1D22751600A48A7D /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44CBA9B1D22751600A48A7D /* MainPageViewController.swift */; };
+		B44CBAA01D227BB200A48A7D /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B44CBA9F1D227BB100A48A7D /* MBProgressHUD.m */; };
+		B44CBAAB1D227E0E00A48A7D /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B44CBAA31D227E0E00A48A7D /* MMDrawerBarButtonItem.m */; };
+		B44CBAAC1D227E0E00A48A7D /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = B44CBAA51D227E0E00A48A7D /* MMDrawerController.m */; };
+		B44CBAAD1D227E0E00A48A7D /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = B44CBAA81D227E0E00A48A7D /* MMDrawerVisualState.m */; };
+		B44CBAAE1D227E0E00A48A7D /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = B44CBAAA1D227E0E00A48A7D /* UIViewController+MMDrawerController.m */; };
+		B44CBAB01D227F1300A48A7D /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44CBAAF1D227F1300A48A7D /* TableViewController.swift */; };
+		B44CBAB41D229D1500A48A7D /* AnimationEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44CBAB31D229D1500A48A7D /* AnimationEngine.swift */; };
+		B44CBAB61D229D3000A48A7D /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44CBAB51D229D3000A48A7D /* CustomTextField.swift */; };
+		B47AAA5A1D25049200EB5BDE /* PasswordStrengthIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = B47AAA591D25049200EB5BDE /* PasswordStrengthIndicatorView.m */; };
+		B47AAA5D1D2504A800EB5BDE /* PasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B47AAA5C1D2504A800EB5BDE /* PasswordViewController.m */; };
+		B47AAA601D2504D500EB5BDE /* UIColor+CustomColors.m in Sources */ = {isa = PBXBuildFile; fileRef = B47AAA5F1D2504D500EB5BDE /* UIColor+CustomColors.m */; };
+		B47AAA621D25080C00EB5BDE /* CustomPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47AAA611D25080C00EB5BDE /* CustomPassword.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1352FAB3545DB0D95DC8A41A /* Pods-BProfiles.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BProfiles.release.xcconfig"; path = "Pods/Target Support Files/Pods-BProfiles/Pods-BProfiles.release.xcconfig"; sourceTree = "<group>"; };
+		5615E9A8C564B8BFE9D32A06 /* Pods-BProfiles.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BProfiles.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BProfiles/Pods-BProfiles.debug.xcconfig"; sourceTree = "<group>"; };
 		B40D07A71D21A980007C86ED /* BProfiles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BProfiles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B40D07AA1D21A980007C86ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B40D07AC1D21A980007C86ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +45,37 @@
 		B40D07B11D21A980007C86ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B40D07B41D21A980007C86ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B40D07B61D21A980007C86ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B40D07BC1D21A993007C86ED /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B40D07BE1D21A9AE007C86ED /* BProfiles-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BProfiles-Bridging-Header.h"; sourceTree = "<group>"; };
+		B40D07C41D21AB51007C86ED /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		B40D07C61D21B296007C86ED /* CreateUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateUserViewController.swift; sourceTree = "<group>"; };
+		B41873AF1D22BCCD00486CB9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B41873B11D22BCEA00486CB9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B41873B91D22C9D900486CB9 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		B41873BB1D22CA9A00486CB9 /* Card.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Card.xib; sourceTree = "<group>"; };
+		B44CBA9B1D22751600A48A7D /* MainPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
+		B44CBA9E1D227BB100A48A7D /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		B44CBA9F1D227BB100A48A7D /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		B44CBAA21D227E0E00A48A7D /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
+		B44CBAA31D227E0E00A48A7D /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
+		B44CBAA41D227E0E00A48A7D /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerController.h; sourceTree = "<group>"; };
+		B44CBAA51D227E0E00A48A7D /* MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerController.m; sourceTree = "<group>"; };
+		B44CBAA61D227E0E00A48A7D /* MMDrawerController+Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMDrawerController+Subclass.h"; sourceTree = "<group>"; };
+		B44CBAA71D227E0E00A48A7D /* MMDrawerVisualState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerVisualState.h; sourceTree = "<group>"; };
+		B44CBAA81D227E0E00A48A7D /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerVisualState.m; sourceTree = "<group>"; };
+		B44CBAA91D227E0E00A48A7D /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
+		B44CBAAA1D227E0E00A48A7D /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
+		B44CBAAF1D227F1300A48A7D /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		B44CBAB31D229D1500A48A7D /* AnimationEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationEngine.swift; sourceTree = "<group>"; };
+		B44CBAB51D229D3000A48A7D /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		B47AAA581D25049200EB5BDE /* PasswordStrengthIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordStrengthIndicatorView.h; sourceTree = "<group>"; };
+		B47AAA591D25049200EB5BDE /* PasswordStrengthIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordStrengthIndicatorView.m; sourceTree = "<group>"; };
+		B47AAA5B1D2504A800EB5BDE /* PasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordViewController.h; sourceTree = "<group>"; };
+		B47AAA5C1D2504A800EB5BDE /* PasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordViewController.m; sourceTree = "<group>"; };
+		B47AAA5E1D2504D500EB5BDE /* UIColor+CustomColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CustomColors.h"; sourceTree = "<group>"; };
+		B47AAA5F1D2504D500EB5BDE /* UIColor+CustomColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CustomColors.m"; sourceTree = "<group>"; };
+		B47AAA611D25080C00EB5BDE /* CustomPassword.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPassword.swift; sourceTree = "<group>"; };
+		C5E96FD98D508657148E29F1 /* Pods_BProfiles.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BProfiles.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +83,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B41873B21D22BCEA00486CB9 /* UIKit.framework in Frameworks */,
+				B41873B01D22BCCD00486CB9 /* CoreGraphics.framework in Frameworks */,
+				07B6E8218854833F4B92A593 /* Pods_BProfiles.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A0E52BEE91A23D4AA85D9571 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B41873B11D22BCEA00486CB9 /* UIKit.framework */,
+				B41873AF1D22BCCD00486CB9 /* CoreGraphics.framework */,
+				C5E96FD98D508657148E29F1 /* Pods_BProfiles.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B40D079E1D21A980007C86ED = {
 			isa = PBXGroup;
 			children = (
 				B40D07A91D21A980007C86ED /* BProfiles */,
 				B40D07A81D21A980007C86ED /* Products */,
+				C64CA6965B21C3E0E39C242C /* Pods */,
+				A0E52BEE91A23D4AA85D9571 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +123,107 @@
 		B40D07A91D21A980007C86ED /* BProfiles */ = {
 			isa = PBXGroup;
 			children = (
+				B47AAA571D25047200EB5BDE /* Password */,
+				B44CBAB21D2282D000A48A7D /* Bridging Header */,
+				B44CBAB11D2282B500A48A7D /* pLists */,
+				B40D07C21D21AB25007C86ED /* VCs */,
+				B44CBAA11D227D2100A48A7D /* MMDrawer */,
+				B44CBA9D1D227B3E00A48A7D /* ProgressHUD */,
+				B40D07C31D21AB3A007C86ED /* Animations */,
 				B40D07AA1D21A980007C86ED /* AppDelegate.swift */,
-				B40D07AC1D21A980007C86ED /* ViewController.swift */,
 				B40D07AE1D21A980007C86ED /* Main.storyboard */,
 				B40D07B11D21A980007C86ED /* Assets.xcassets */,
 				B40D07B31D21A980007C86ED /* LaunchScreen.storyboard */,
-				B40D07B61D21A980007C86ED /* Info.plist */,
 			);
 			path = BProfiles;
+			sourceTree = "<group>";
+		};
+		B40D07C21D21AB25007C86ED /* VCs */ = {
+			isa = PBXGroup;
+			children = (
+				B40D07AC1D21A980007C86ED /* ViewController.swift */,
+				B40D07C61D21B296007C86ED /* CreateUserViewController.swift */,
+				B44CBA9B1D22751600A48A7D /* MainPageViewController.swift */,
+				B44CBAAF1D227F1300A48A7D /* TableViewController.swift */,
+			);
+			name = VCs;
+			sourceTree = "<group>";
+		};
+		B40D07C31D21AB3A007C86ED /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				B40D07C41D21AB51007C86ED /* CustomButton.swift */,
+				B44CBAB31D229D1500A48A7D /* AnimationEngine.swift */,
+				B44CBAB51D229D3000A48A7D /* CustomTextField.swift */,
+				B41873B91D22C9D900486CB9 /* Card.swift */,
+				B41873BB1D22CA9A00486CB9 /* Card.xib */,
+				B47AAA611D25080C00EB5BDE /* CustomPassword.swift */,
+			);
+			name = Animations;
+			sourceTree = "<group>";
+		};
+		B44CBA9D1D227B3E00A48A7D /* ProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				B44CBA9E1D227BB100A48A7D /* MBProgressHUD.h */,
+				B44CBA9F1D227BB100A48A7D /* MBProgressHUD.m */,
+			);
+			name = ProgressHUD;
+			sourceTree = "<group>";
+		};
+		B44CBAA11D227D2100A48A7D /* MMDrawer */ = {
+			isa = PBXGroup;
+			children = (
+				B44CBAA21D227E0E00A48A7D /* MMDrawerBarButtonItem.h */,
+				B44CBAA31D227E0E00A48A7D /* MMDrawerBarButtonItem.m */,
+				B44CBAA41D227E0E00A48A7D /* MMDrawerController.h */,
+				B44CBAA51D227E0E00A48A7D /* MMDrawerController.m */,
+				B44CBAA61D227E0E00A48A7D /* MMDrawerController+Subclass.h */,
+				B44CBAA71D227E0E00A48A7D /* MMDrawerVisualState.h */,
+				B44CBAA81D227E0E00A48A7D /* MMDrawerVisualState.m */,
+				B44CBAA91D227E0E00A48A7D /* UIViewController+MMDrawerController.h */,
+				B44CBAAA1D227E0E00A48A7D /* UIViewController+MMDrawerController.m */,
+			);
+			name = MMDrawer;
+			sourceTree = "<group>";
+		};
+		B44CBAB11D2282B500A48A7D /* pLists */ = {
+			isa = PBXGroup;
+			children = (
+				B40D07B61D21A980007C86ED /* Info.plist */,
+				B40D07BC1D21A993007C86ED /* GoogleService-Info.plist */,
+			);
+			name = pLists;
+			sourceTree = "<group>";
+		};
+		B44CBAB21D2282D000A48A7D /* Bridging Header */ = {
+			isa = PBXGroup;
+			children = (
+				B40D07BE1D21A9AE007C86ED /* BProfiles-Bridging-Header.h */,
+			);
+			name = "Bridging Header";
+			sourceTree = "<group>";
+		};
+		B47AAA571D25047200EB5BDE /* Password */ = {
+			isa = PBXGroup;
+			children = (
+				B47AAA581D25049200EB5BDE /* PasswordStrengthIndicatorView.h */,
+				B47AAA591D25049200EB5BDE /* PasswordStrengthIndicatorView.m */,
+				B47AAA5B1D2504A800EB5BDE /* PasswordViewController.h */,
+				B47AAA5C1D2504A800EB5BDE /* PasswordViewController.m */,
+				B47AAA5E1D2504D500EB5BDE /* UIColor+CustomColors.h */,
+				B47AAA5F1D2504D500EB5BDE /* UIColor+CustomColors.m */,
+			);
+			name = Password;
+			sourceTree = "<group>";
+		};
+		C64CA6965B21C3E0E39C242C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5615E9A8C564B8BFE9D32A06 /* Pods-BProfiles.debug.xcconfig */,
+				1352FAB3545DB0D95DC8A41A /* Pods-BProfiles.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +233,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B40D07B91D21A980007C86ED /* Build configuration list for PBXNativeTarget "BProfiles" */;
 			buildPhases = (
+				59FA9DC7100FD6FBA8763E38 /* Check Pods Manifest.lock */,
 				B40D07A31D21A980007C86ED /* Sources */,
 				B40D07A41D21A980007C86ED /* Frameworks */,
 				B40D07A51D21A980007C86ED /* Resources */,
+				1F5543576F92D71BEC1E91D4 /* Embed Pods Frameworks */,
+				AC73A3C24E766473DACB9ADD /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,6 +288,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B40D07B51D21A980007C86ED /* LaunchScreen.storyboard in Resources */,
+				B41873BC1D22CA9A00486CB9 /* Card.xib in Resources */,
+				B40D07BD1D21A993007C86ED /* GoogleService-Info.plist in Resources */,
 				B40D07B21D21A980007C86ED /* Assets.xcassets in Resources */,
 				B40D07B01D21A980007C86ED /* Main.storyboard in Resources */,
 			);
@@ -130,13 +297,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1F5543576F92D71BEC1E91D4 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BProfiles/Pods-BProfiles-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59FA9DC7100FD6FBA8763E38 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AC73A3C24E766473DACB9ADD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BProfiles/Pods-BProfiles-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B40D07A31D21A980007C86ED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B44CBAB61D229D3000A48A7D /* CustomTextField.swift in Sources */,
+				B47AAA621D25080C00EB5BDE /* CustomPassword.swift in Sources */,
+				B47AAA5A1D25049200EB5BDE /* PasswordStrengthIndicatorView.m in Sources */,
+				B44CBA9C1D22751600A48A7D /* MainPageViewController.swift in Sources */,
+				B44CBAA01D227BB200A48A7D /* MBProgressHUD.m in Sources */,
+				B44CBAB41D229D1500A48A7D /* AnimationEngine.swift in Sources */,
+				B47AAA5D1D2504A800EB5BDE /* PasswordViewController.m in Sources */,
+				B44CBAAC1D227E0E00A48A7D /* MMDrawerController.m in Sources */,
+				B44CBAAE1D227E0E00A48A7D /* UIViewController+MMDrawerController.m in Sources */,
+				B44CBAAD1D227E0E00A48A7D /* MMDrawerVisualState.m in Sources */,
 				B40D07AD1D21A980007C86ED /* ViewController.swift in Sources */,
 				B40D07AB1D21A980007C86ED /* AppDelegate.swift in Sources */,
+				B41873BA1D22C9D900486CB9 /* Card.swift in Sources */,
+				B40D07C51D21AB51007C86ED /* CustomButton.swift in Sources */,
+				B40D07C71D21B296007C86ED /* CreateUserViewController.swift in Sources */,
+				B47AAA601D2504D500EB5BDE /* UIColor+CustomColors.m in Sources */,
+				B44CBAB01D227F1300A48A7D /* TableViewController.swift in Sources */,
+				B44CBAAB1D227E0E00A48A7D /* MMDrawerBarButtonItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,23 +476,30 @@
 		};
 		B40D07BA1D21A980007C86ED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5615E9A8C564B8BFE9D32A06 /* Pods-BProfiles.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = BProfiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Louis-Philip.BProfiles";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BProfiles/BProfiles-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		B40D07BB1D21A980007C86ED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1352FAB3545DB0D95DC8A41A /* Pods-BProfiles.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = BProfiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Louis-Philip.BProfiles";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BProfiles/BProfiles-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -284,6 +522,7 @@
 				B40D07BB1D21A980007C86ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
