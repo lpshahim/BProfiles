@@ -26,11 +26,11 @@ class TableViewController: UITableViewController {
 
        let databaseRef = FIRDatabase.database().reference()
         
-        /*databaseRef.child("Posts").queryOrderedByKey().observeEventType(.ChildAdded, withBlock: {
+        databaseRef.child("Posts").queryOrderedByKey().observeEventType(.ChildAdded, withBlock: {
             snapshot in
             
-            let title = snapshot.value!["title"] as! String
-            let message = snapshot.value!["message"] as! String
+            let title = snapshot.value!["Title"] as! String
+            let message = snapshot.value!["Message"] as! String
             
             self.posts.insert(postStruct(title: title, message: message), atIndex: 0)
             
@@ -38,7 +38,7 @@ class TableViewController: UITableViewController {
             
             
             
-        })*/
+        })
         
         post()
     }
