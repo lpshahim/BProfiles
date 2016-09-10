@@ -17,10 +17,12 @@ struct postStruct {
 
 class TableViewController: UITableViewController {
     
-   var posts = [postStruct]()
     
+    @IBOutlet weak var searchBar: UISearchBar!
+    @IBOutlet var tblView: UITableView!
     
-
+    var posts = [postStruct]()
+   
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -39,6 +41,10 @@ class TableViewController: UITableViewController {
             
             
         })
+        
+        
+        
+        
         
         post()
     }
