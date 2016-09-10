@@ -40,11 +40,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        self.animEngine = AnimationEngine(constraints: [emailConstraint, passwordConstraint, loginConstraint])
+        /*self.animEngine = AnimationEngine(constraints: [emailConstraint, passwordConstraint, loginConstraint])*/
     }
     
     override func viewDidAppear(animated: Bool) {
-        self.animEngine.animateOnScreen(1)
+        //self.animEngine.animateOnScreen(1)
     }
 
     override func didReceiveMemoryWarning() {

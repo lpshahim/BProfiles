@@ -35,11 +35,11 @@ class CreateUserViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.animEngine = AnimationEngine(constraints: [emailConstraint, passwordConstraint, rpasswordConstraint, categoryConstraint, createConstraint])
+        /*self.animEngine = AnimationEngine(constraints: [emailConstraint, passwordConstraint, rpasswordConstraint, categoryConstraint, createConstraint])*/
     }
     
     override func viewDidAppear(animated: Bool) {
-        self.animEngine.animateOnScreen(1)
+        //self.animEngine.animateOnScreen(1)
     }
 
     override func didReceiveMemoryWarning() {
@@ -49,8 +49,8 @@ class CreateUserViewController: UIViewController {
     
     func usersAdd(){
         
-        let email = "Email"
-        let category = "Category"
+        let email = newEmailField.text!
+        let category = categoryField.text!
         
         let user : [String : AnyObject] = ["Email" : email , "Category" : category]
         
@@ -75,7 +75,7 @@ class CreateUserViewController: UIViewController {
                     
                 }else{
                     print("Successfully created")
-                    //self.dismissViewControllerAnimated(true, completion: nil)
+                    self.dismissViewControllerAnimated(true, completion: nil)
                     self.usersAdd()
                 }
             }}else
